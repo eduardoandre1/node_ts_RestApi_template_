@@ -1,5 +1,5 @@
-import { DB } from "../database/postgres"
-import { databaseOutput } from "../protocol/types"
+import { DB } from "@/database/postgres"
+import { databaseOutput } from "@/protocol/types"
 async function create(name: string): Promise<void>
 {
 	await DB.query(`INSERT INTO pessoa (nome) VALUES ($1)`,[name])

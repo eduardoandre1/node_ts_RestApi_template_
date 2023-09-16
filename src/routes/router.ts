@@ -1,4 +1,4 @@
-import { controllerFunction } from '../controllers/controller';
+import { controllerFunction } from '@/controllers/controller';
 import { Router } from "express";
 const names = Router();
 

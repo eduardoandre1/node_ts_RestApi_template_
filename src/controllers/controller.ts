@@ -1,6 +1,6 @@
 import httpStatus from 'http-status';
 import { Request , Response } from 'express';
-import serviçeFunctions from '../serviçes/serviçe';
+import serviçeFunctions from '@/serviçes/serviçe';
 function controller(req: Request, res: Response)
 {
 	//get the data by req 
