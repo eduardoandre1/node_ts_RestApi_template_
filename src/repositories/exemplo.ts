@@ -1,4 +1,4 @@
-import {DB} from "@/database/postgres";
+import {DB} from "./../database/postgres";
 // é uma boa pratica informar o tipo de dado que vai chegar no banco de dados e como se expera que chegue no banco de dados 
 //exemplo 
 type Generics<T> = {

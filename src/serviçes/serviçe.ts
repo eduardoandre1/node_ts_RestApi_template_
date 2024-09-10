@@ -1,4 +1,4 @@
-import repositoryFunctions from "@/repositories/repositorie";
+import repositoryFunctions from "./../repositories/repositorie";
 
 function create(name:string):void
 {
